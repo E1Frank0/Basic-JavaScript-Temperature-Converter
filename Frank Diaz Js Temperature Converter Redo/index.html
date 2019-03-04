@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/style.css">
+<title>JS Temperature Convert Redo</title>
+</head>
+<body>
+<h1>Javascript Temperature Converter Redo</h1>
+<h3>By: Frank Diaz</h3>
+<p>This is a remade version of my previous Javascript Temperature Converter. I decided I wanted to start over again<br>so that the site doesn't closely resemble the previous one I made that I based off a Youtube tutorial. Let's do it to it!</p>
+<br>
+<form>
+<h3>Fahrenheit to Celsius</h3>
+<input type="text" id="fheitInput" name="celsius" pattern="[0-9]" placeholder=" ">
+<input type="button" onclick="getCelsius(this.value)" value="Convert">
+<p id="cOutput"></p>
+<br>
+<h3>Celsius to Fahrenheit</h3>
+<input type="text" id="cInput" name="fheit" pattern="[0-9]" placeholder=" ">
+<input type="button" onclick="getFheit()" value="Convert">
+<p id="fOutput"></p>
+</form>
+<script src="js/main.js"></script>
+</body>
+</html>
